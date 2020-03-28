@@ -16,8 +16,6 @@
   height: 40px;
   margin-bottom: 10px;
   clear: both;
-
-
 }
 
 .row div {
@@ -36,8 +34,8 @@
 }
 
 .row div.hint {
+  background: greenyellow;
   /* background: slategrey; */
-  background: slategrey;
 }
 
 .row .space {
@@ -45,24 +43,17 @@
 }
 
 .rows .enter {
-  width: 70px;
+  width: 50px;
   height: 90px;
   position: absolute;
   border-radius: 10px;
   cursor: pointer;
-  margin-left: 800px;
+  margin-left: 820px;
   background: lightslategray;
 }
 
-.rows .enter:before {
-  content: "";
-  position: relative;
-  width: 0;
-  height: 0;
-  top: 15px;
-  border-left: 20px solid lightsteelblue;
-  border-bottom: 40px solid lightsteelblue;
-  border-top-right-radius: 10px;
+.row .tab {
+  width: 65px;
 }
 
 .row .shift-left {
@@ -107,17 +98,13 @@
   height: 20px;
 }
 
-.kyeboard div:hover {
-  background: #f9de53;
-}
-
 img {
   width: 20px;
   height: 20px;
 }
 
 .enter img {
-  padding: 10px;
+  margin: 20px;
 }
 
 
@@ -129,13 +116,13 @@ img {
 #pointer {
   position: relative;
   width: 20px;
-  left: 85px;
+  left: 60px;
 }
 
 #pointer-dif-sides {
   width: 20px;
   position: relative;
-  left: 70px;
+  left: 45px;
 }
 
 #pointer img,
